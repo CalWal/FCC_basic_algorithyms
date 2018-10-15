@@ -1,0 +1,1 @@
+{"index.js":"function reverseString(str) {\n// split separates each letter of a word\n// reverse puts them in reverse order\n//then glues them back together with join\n  str = str.split('').reverse().join('');\n\n  return str;\n}\n// this will return olleh\nreverseString(\"hello\");"}
